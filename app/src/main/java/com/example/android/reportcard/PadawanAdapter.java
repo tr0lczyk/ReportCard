@@ -15,7 +15,7 @@ import java.util.ArrayList;
  * Created by Mateusz on 14.01.2018.
  */
 
-public class PadawanAdapter extends ArrayAdapter {
+public class PadawanAdapter extends ArrayAdapter<Padawan> {
 
     public PadawanAdapter(Activity context, ArrayList<Padawan> padawans) {
         // Here, we initialize the ArrayAdapter's internal storage for the context and the list.
