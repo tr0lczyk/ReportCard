@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="obi" />
+
+    <TextView
+        android:id="@+id/race_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="human" />
+
+    <TextView
+        android:id="@+id/history_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="78" />
+
+    <TextView
+        android:id="@+id/force_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="45" />
+
+    <TextView
+        android:id="@+id/pe_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="89" />
+
+    <TextView
+        android:id="@+id/sum_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="description" />
+</LinearLayout>
