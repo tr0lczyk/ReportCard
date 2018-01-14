@@ -35,16 +35,16 @@ public class Padawan {
         return mPadawanRace;
     }
 
-    public int getJediHistoryGrade(){
-        return mJediHistoryGrade;
+    public String getJediHistoryGrade(){
+        return String.valueOf(mJediHistoryGrade);
     }
 
-    public int getJediForceGrade(){
-        return mJediForceGrade;
+    public String getJediForceGrade(){
+        return String.valueOf(mJediForceGrade);
     }
 
-    public int getPhysicalEducation(){
-        return mPhysicalEducation;
+    public String getPhysicalEducation(){
+        return String.valueOf(mPhysicalEducation);
     }
 
     public void setPadawanName(String newName){
