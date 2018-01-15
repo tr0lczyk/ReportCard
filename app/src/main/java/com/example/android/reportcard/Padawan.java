@@ -51,20 +51,19 @@ public class Padawan {
         mPadawanName = newName;
     }
 
-    public void setPadawanRace(String newRace){
-        mPadawanRace = newRace;
+    public void setPadawanRace(String newPadawanRace){
+        mPadawanRace = newPadawanRace;
     }
 
-    public void setJediHistoryGrade(int newGrade){
-        mJediHistoryGrade = newGrade;
+    public void setJediHistoryGrade(int newPadawanGrade){
+        mJediHistoryGrade = newPadawanGrade;
     }
 
-    public void setJediForceGrade(int newGrade){
-        mJediForceGrade = newGrade;
+    public void setJediForceGrade(int newPadawanGrade){
+        mJediForceGrade = newPadawanGrade;
     }
 
-    public void setPhysicalEducation(int newGrade){
-        mPhysicalEducation = newGrade;
+    public void setPhysicalEducation(int newPadawanGrade){mPhysicalEducation = newPadawanGrade;
     }
 
     @Override
